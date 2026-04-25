@@ -1,6 +1,6 @@
 # 🛡️ SHEGUARD X — Offline Emergency Safety System
 
-> ⭐ Designed to ensure emergency communication even when internet or normal SOS systems fail.
+> Designed to ensure emergency communication even when internet or normal SOS systems fail.
 
 ---
 
