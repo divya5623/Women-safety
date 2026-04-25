@@ -72,7 +72,7 @@ It enhances emergency communication using:
 - Detects keywords like:
   - "help"
   - "emergency"
-  - "SOS"
+  - "Stimulate danger"
 - Auto-triggers emergency mode
 
 ---
