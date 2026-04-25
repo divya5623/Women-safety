@@ -1,6 +1,6 @@
-# 🛡️ SHEGUARD X — Offline Emergency Safety System
+#  SHEGUARD X — Offline Emergency Safety System
 
-> Designed to ensure emergency communication even when internet or normal SOS systems fail.
+>  Designed to ensure emergency communication even when internet or normal SOS systems fail.
 
 ---
 
@@ -9,70 +9,134 @@
 
 ---
 
-## 📌 Problem Statement
+# 📌 Problem Statement
 
 In real-world emergency situations:
 
 - Internet may not be available ❌  
-- Users may panic and cannot communicate ❌  
+- Users may panic and cannot communicate clearly ❌  
 - Standard SOS systems send limited information ❌  
-- No context or structured data reaches responders ❌  
+- No structured or contextual data reaches responders ❌  
 
 👉 This leads to delayed or ineffective emergency response.
 
 ---
 
-## 💡 Solution
+# 💡 Solution
 
-SHEGUARD X is an **offline-first emergency safety system** that ensures help can still be triggered even in poor connectivity conditions.
+SHEGUARD X is an **offline-first intelligent emergency safety system** that ensures help can still be triggered in any condition.
 
-It improves emergency communication by adding:
+It enhances emergency communication using:
 
-- Location capture 📍  
-- Structured emergency alerts 🚨  
-- Offline fallback mechanism 📶  
-- Fast one-click emergency trigger ⚡  
-
----
-
-## ⚙️ Key Features
-
-### 📍 Real-Time Location Tracking
-Uses browser Geolocation API to capture user location during emergencies.
-
-### 🚨 Emergency Alert System
-Single-click SOS trigger that generates structured emergency data.
-
-### 📶 Offline Fallback Concept
-Simulates emergency handling when internet is unavailable.
-
-### ⚡ Fast Emergency Flow
-Designed for panic situations with minimal user interaction.
+- 📍 Real-time location tracking  
+- 🚨 Structured emergency alerts  
+- 📶 Offline fallback mechanism  
+- ⚡ Fast multi-trigger SOS system  
+- 🎙 Voice + manual emergency activation  
 
 ---
 
-## 🔄 System Workflow
+# ⚙️ Key Features (Advanced Implementation)
 
-1. User triggers emergency button  
-2. System captures location  
-3. Emergency alert is generated  
-4. If online → sends immediate alert  
-5. If offline → stores emergency data locally  
-6. Displays confirmation to user  
+## 📍 Geolocation Tracking
+- Uses `navigator.geolocation.getCurrentPosition()`
+- Captures real GPS coordinates
+- Falls back to cached coordinates if needed
 
 ---
 
-## 🧪 Tech Stack
+## 📲 Emergency SMS (Simulation Ready)
+- Prepares full SOS message
+- Includes:
+  - Location link (Google Maps)
+  - Time stamp
+  - Emergency status
+- Opens native SMS app via `sms:` link
+
+---
+
+## 💬 WhatsApp Alert System
+- Uses `wa.me` deep link
+- Sends pre-filled emergency message instantly
+
+---
+
+## 📋 One-Click Copy Alert
+- Uses `navigator.clipboard.writeText()`
+- Copies full emergency message instantly
+
+---
+
+## 🎙 Voice Detection System
+- Uses `getUserMedia()` + Speech Recognition API
+- Detects keywords like:
+  - "help"
+  - "emergency"
+  - "SOS"
+- Auto-triggers emergency mode
+
+---
+
+## 🔴 Evidence Recording (Advanced Feature)
+- Uses `MediaRecorder API`
+- Captures audio during emergency (when permission granted)
+- Acts as evidence simulation system
+
+---
+
+## ⚡ Smart Risk Engine
+- Calculates risk level:
+  - LOW / MEDIUM / HIGH
+- Based on:
+  - Time of day
+  - Network status
+  - Trigger type
+
+---
+
+# 🔄 System Flow (Judge-Friendly)
+
+1. User opens app → SAFE mode shown  
+2. System detects online/offline state  
+3. User triggers SOS (button / voice)  
+4. System captures GPS location  
+5. Emergency message is generated  
+6. Alert options activated:
+   - SMS
+   - WhatsApp
+   - Copy alert  
+7. If offline → data stored locally  
+8. When network returns → alert can be sent  
+
+---
+
+# 🧪 Demo Flow (Judge Presentation Script)
+
+1. Open application → SAFE state  
+2. Click “SIMULATE DANGER” → RED ALERT mode  
+3. Show GPS location captured  
+4. Show pre-filled emergency message  
+5. Click SMS → message opens ready to send  
+6. Show WhatsApp alert option  
+7. Explain offline fallback behavior  
+
+👉 Judges see: Trigger → Location → Message → Action
+
+---
+
+# 🧠 Tech Stack
 
 - HTML5  
 - CSS3  
 - JavaScript  
 - Geolocation API  
+- MediaRecorder API  
+- Web Speech API  
 - Vercel (Deployment)
 
 ---
 
-## 🚀 Deployment
+# 🚀 Deployment
 
 - Platform: Vercel  
 - Type: Static Web App  
@@ -82,35 +146,36 @@ Designed for panic situations with minimal user interaction.
 
 ---
 
-## 🧠 Innovation Highlights
+# 🧠 Innovation Highlights
 
-- Offline-first emergency thinking  
-- Real-world safety problem solving  
-- Minimal UI designed for panic situations  
-- Structured emergency information instead of simple alerts  
+- Offline-first emergency architecture  
+- Multi-channel emergency communication (SMS + WhatsApp + Copy)  
+- Voice-triggered SOS system  
+- Evidence-based emergency recording concept  
+- Real-world panic-friendly UI design  
 
 ---
 
-## 📈 Future Scope
+# 📈 Future Scope
 
-- SMS API integration for real emergency alerts  
-- AI-based threat detection  
+- Real SMS API integration (Twilio / Firebase)  
+- AI-based threat detection system  
 - Background location tracking  
 - Mobile application version  
-- Emergency contact integration  
+- Emergency network relay system  
 
 ---
 
-## 👨‍💻 Project Type
+# 👨‍💻 Project Type
 
 Hackathon Prototype (12-hour build)  
-Focused on real-world emergency usability and system design.
+Focused on real-world emergency usability and reliability.
 
 ---
 
-## 🏁 Conclusion
+# 🏁 Conclusion
 
-SHEGUARD X is designed to improve emergency response reliability by ensuring that critical information can still be generated and shared even in unstable network conditions.
+SHEGUARD X ensures that emergency communication is never blocked by poor connectivity or panic situations by enabling multiple fallback communication methods and structured alerts.
 
 ---
 
